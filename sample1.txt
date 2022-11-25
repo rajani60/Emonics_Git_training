@@ -1,0 +1,13 @@
+or create a new repository on the command line
+echo "# Emonics_Git_training" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/rajani60/Emonics_Git_training.git
+git push -u origin master
+…or push an existing repository from the command line
+git remote add origin https://github.com/rajani60/Emonics_Git_training.git
+git branch -M master
+git push -u origin master
+
